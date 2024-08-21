@@ -4,11 +4,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@babel/parser": "^7.25.3",
     "@babel/plugin-proposal-decorators": "^7.24.7",
-    "esbuild": "^0.23.1"
+    "@vitejs/plugin-react": "^4.3.1",
+    "esbuild": "^0.23.1",
+    "vitest": "^2.0.5"
   },
   "private": true,
   "scripts": {
-    "build": "node build.cjs"
+    "build": "node build.cjs",
+    "test": "vitest run"
   }
 }

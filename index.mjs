@@ -11,3 +11,5 @@ class A extends React.Component {
     return React.createElement('div', null, 'Hello World');
   }
 }
+
+export default A;
